@@ -27,3 +27,11 @@ def main():
             break
         except ValueError:
             print("⚠️ Invalid input! Please enter a whole number for the age.")
+
+    print("\nProcessing registration data...")
+    time.sleep(1.5)
+    print("\n" + "=" * 50)
+    print("PET REGISTRATION SUCCESSFUL")
+    print("=" * 50)
+    print(f"Name: {my_pet.get_name()}")
+    print(f"Type: {my_pet.get_animal_type()}")
