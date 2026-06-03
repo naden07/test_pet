@@ -17,3 +17,9 @@ def main():
     type_input = input("Enter pet's animal type (e.g., Dog, Cat, Bird): ").strip()
     my_pet.set_animal_type(type_input.capitalize())
 
+    while True:
+        try:
+            age_input = int(input("Enter pet's age (in years): "))
+            if age_input < 0:
+                print("Age cannot be negative. Try again.")
+                continue
