@@ -15,3 +15,5 @@ def main():
     my_pet.set_name(name_input)
 
     type_input = input("Enter pet's animal type (e.g., Dog, Cat, Bird): ").strip()
+    my_pet.set_animal_type(type_input.capitalize())
+
