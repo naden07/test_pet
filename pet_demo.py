@@ -23,3 +23,7 @@ def main():
             if age_input < 0:
                 print("Age cannot be negative. Try again.")
                 continue
+            my_pet.set_age(age_input)
+            break
+        except ValueError:
+            print("⚠️ Invalid input! Please enter a whole number for the age.")
