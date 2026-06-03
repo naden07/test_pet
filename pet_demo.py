@@ -39,3 +39,5 @@ def main():
     print(f"Age:  {my_pet.get_age()} {age_suffix}")
     print("=" * 50)
 
+if _name_ == "_main_":
+    main()
