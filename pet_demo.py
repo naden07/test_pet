@@ -35,3 +35,7 @@ def main():
     print("=" * 50)
     print(f"Name: {my_pet.get_name()}")
     print(f"Type: {my_pet.get_animal_type()}")
+    age_suffix = "year old" if my_pet.get_age() == 1 else "years old"
+    print(f"Age:  {my_pet.get_age()} {age_suffix}")
+    print("=" * 50)
+
